@@ -87,16 +87,17 @@ p {
 }
 
 
-.placeholder-wrapper{
+/* .placeholder-wrapper{
     display:flex;
-}
+} */
 
 .placeholder-image{
     display:flex;
     flex-direction: column; 
-    padding-left: 18px;
+    padding-left: 15px;
     justify-content: space-between;
     height: 210px;
+    width: 50px;
 
 }
 
@@ -109,7 +110,7 @@ p {
 
 } */
 
-h4 {
+li {
     list-style-type: none; 
     font-size: 12px;
     font-family: 'Roboto Slab', serif;
