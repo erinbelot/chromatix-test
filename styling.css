@@ -1,0 +1,153 @@
+body {
+    background-color: white;
+}
+
+.panel {
+    background-color: #f6f6f6;
+    outline: 1px solid #e5e5e5;
+}
+
+.section-heading {
+    color: #bebebe;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    /* media query */
+    font-size: 9px;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-left: 17px;
+    
+
+}
+
+.blue-paragraph {
+    color: #27198C;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    /* media query */
+    line-height: 30px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-left: 17px;
+
+}
+
+.black-paragraph {
+    color: #191919;
+    font-family: 'Muli', sans-serif;
+    /* media query */
+    line-height: 25px;
+    font-size:  12px;
+    padding-left: 17px;
+
+    width: 300px;
+}
+
+h3 {
+ font-weight: 600;
+}
+
+.button-wrapper{
+    display:flex;
+    justify-content: left;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.info {
+    background-color: #f6f6f6;
+    /* media query */
+    width: 120px;
+    height: 36px;
+    outline: 1px solid #FE7010;
+}
+
+p {
+    color: #2719AC;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    /* media query */
+    letter-spacing: 1px;
+    font-size: 10px;
+    padding-left: 17px;  
+    
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;  
+}
+
+.icon-box{
+    background-color: #FE7010;
+    width: 40px;  
+    outline: 1px solid #FE7010;
+    flex: display;
+    align-items: center;
+}
+
+
+
+
+
+
+.placeholder-and-label{
+    display:flex;
+    justify-content: left;
+
+}
+
+.placeholder-group {
+    display:flex;
+    flex-direction: column;
+
+    justify-content: strech;
+    padding-left: 17px; 
+}
+
+.label{
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:700;
+    letter-spacing: 2px;
+    color: #2719AC;
+    font-weight: bold;
+    
+}
+li {
+    list-style-type: none;
+    padding-bottom: 30px;  
+}
+
+
+
+
+
+.carousel-inner{
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+/* tablet */
+@media (min-width: 768px) {
+
+}
+
+/* small-desktop */
+@media (min-width: 1366px) {
+
+}
+/* large desktop */
+@media (min-width: 1920px) {
+
+}
+
+
+/* flexboxxxxxxxxxxxx */
+
+/* booteus strapeus */
+
