@@ -16,8 +16,6 @@ body {
     letter-spacing: 2px;
     padding-top: 25px;
     padding-left: 17px;
-    
-
 }
 
 .blue-paragraph {
@@ -88,41 +86,54 @@ p {
     align-items: center;
 }
 
-
-
-
-
-
 .placeholder-and-label{
     display:flex;
     justify-content: left;
+    flex-direction:column;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 
 }
 
-.placeholder-group {
+.placeholder{
+    flex: display;
+    align-items: right;
+}
+/* .placeholder-group {
     display:flex;
     flex-direction: column;
 
     justify-content: strech;
     padding-left: 17px; 
+} */
+
+.placeholder-one{
+    padding-bottom: 15px; 
 }
 
-.label{
+.placeholder-two{
+    padding-bottom: 15px; 
+}
+
+.placeholder-three{
+    padding-bottom: 15px; 
+}
+
+li {
+    list-style-type: none; 
     font-size: 12px;
     font-family: 'Roboto Slab', serif;
     font-weight:700;
     letter-spacing: 2px;
     color: #2719AC;
     font-weight: bold;
-    
-}
-li {
-    list-style-type: none;
-    padding-bottom: 30px;  
-}
+     /* padding-bottom: 100px;
+    padding-right:100px;     */
+} 
 
 
-.carousel-inner{
+.carousel {
     display:flex;
     justify-content: center;
     padding-top: 100px;
