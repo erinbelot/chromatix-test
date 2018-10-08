@@ -38,14 +38,19 @@ body {
 
 #title {
     font-size: 15px;
-}
-
-#title {
     color: #bebebe;
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     /* media query */
-    font-size: 12px; 
+    letter-spacing: 2px;
+}
+
+.num-list {
+    color: #e5e5e5;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    /* media query */
+    font-size: 35px; 
     letter-spacing: 2px;
 }
 
@@ -165,6 +170,10 @@ li {
     .photo-carousel {
         display: none;
     }
+    .panel {
+        /* background-color: #FE7010; */
+        padding: 90px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -172,8 +181,12 @@ li {
     .heading-wrapper {
         display: block;
         float: left;
-        width: 45vw; 
+        width: 42vw; 
         padding-right: 8px; 
+    }
+
+    .num-list {
+        display: none;
     }
 
     #button-wrapper {
@@ -228,6 +241,7 @@ li {
     }
     .panel {
         display: block;
+        padding: 40px;
     }
   
     .list-total-wrapper {
@@ -260,6 +274,9 @@ li {
 
 @media screen and (max-width: 768px) {
      .panel #show {
+        display: none;
+    }
+    .num-list {
         display: none;
     }
 }
