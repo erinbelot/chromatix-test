@@ -69,9 +69,10 @@ h3 {
 }
 
 .icon {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  padding-top: 10px;
 }
 
 .icon-box {
@@ -91,6 +92,8 @@ h3 {
 .list-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
 }
 
 .list-wrapper h3 {
@@ -139,7 +142,6 @@ li {
         padding-left: 10px;   
     }
     
-    
     .section-heading {
         font-size: 10px; 
         letter-spacing: 2px;
@@ -158,20 +160,26 @@ li {
         width: 300px;     
     }
 
-    .list-wrapper {
+    /* .list-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        height: 210px;
-    }
-/* 
-    .list-total-wrapper{
-        display:flex;
-        justify-content:space-around;
-        height: 1000px;
+        
     } */
+    .list-wrapper h3 {
+        
+        font-weight: bold;
+        /* media query */
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
 
+    .clip-1{
+        
+    }
 
+    .clip-2{
+
+    }
     .photo-carousel {
         display: none;
     }
@@ -186,10 +194,7 @@ li {
         display: inline-block;
         width: 45vw;
     }
-    .button-wrapper {
-        display: block;
-        width: 45vw;
-    }
+  
     .panel img {
         width: 45vw;
     }
@@ -202,6 +207,7 @@ li {
 }
 
 
-/* class image affects the display of svgs */
+/* give image that are going to dissapear all the same class name
+and replace "img" with that class name */
 
 
