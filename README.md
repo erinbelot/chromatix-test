@@ -3,7 +3,7 @@
 Chromatix Test
 
 ## Deployment
-Will add netifly site and screenshots when I get home!
+https://chromatix-test.netlify.com/
 
 
 
