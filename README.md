@@ -12,11 +12,10 @@ Chromatix Test
 
 ## Yet to complete
 
-Restructure second component
-
-Media queries
-
-Bootstrap carousel
+Bootstrap - class to id? or insert owl carousel
+rename hidden image classes for mobile view
+javascript or css function for clip
+get rid of certain padding?
 
 
 
