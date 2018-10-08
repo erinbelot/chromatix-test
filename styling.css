@@ -17,68 +17,76 @@ body {
     height: 20em;
 }
 
-.section-heading {
+#title {
+    font-size: 15px;
+}
+
+#title {
     color: #bebebe;
     font-family: 'Roboto Slab', serif;
-    font-weight: 400;
+    font-weight: 600;
     /* media query */
-    font-size: 8px; 
+    font-size: 12px; 
     letter-spacing: 2px;
 }
 
-.blue-paragraph {
+#blue-paragraph {
     color: #27198C;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     /* media query */
     line-height: 30px;
-    font-size: 62.5%;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
 .black-paragraph {
     color: #191919;
     font-family: 'Muli', sans-serif;
-    /* media query */
+    
     line-height: 25px;
-    font-size:  12px;
+    font-size:  14px;
+    font-weight: 400;
 }
 
-h3 {
-    font-weight: 600;
-}
-
-.button-wrapper{
+.button-wrapper {
     display:flex;
     justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .info {
+    display: flex;
+    align-items: center;
     background-color: #f6f6f6;
     outline: 1px solid #FE7010;
-    width: 100px;
-}
-
-.some-button {
-    color: #2719AC;
+    width: 115px;
+    height: 35px;
+    color: #27198C;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
-    font-size: 10px;
-    padding-left: 10px;   
+    font-size: 9px;
+    padding-left: 13px;
+}
+
+#some-button {
+    /* padding-top: 5px; */
 }
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 9px;
 }
 
 .icon-box {
     background-color: #FE7010; 
     outline: 1px solid #FE7010;
-    width: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 .placeholder-wrapper {
@@ -97,11 +105,11 @@ h3 {
 }
 
 .list-wrapper h3 {
-    color: #2719AC;
+    color: #27198C;
     font-family: 'Roboto Slab', serif;
-    font-weight: 400;
+    font-weight: 600;
     /* media query */
-    font-size: 9px;
+    font-size: 10px;
     letter-spacing: 2px;
 }
 
@@ -141,12 +149,16 @@ li {
         width: 45vw; 
         padding-left: 10px;   
     }
+
+    #show img {
+        width: 100%;
+    }
     
     .section-heading {
         font-size: 10px; 
         letter-spacing: 2px;
         /* font-weight: normal; not working */
-        padding-top: 20px;
+        /* padding-top: 20px; */
         
     }
 
@@ -195,13 +207,13 @@ li {
         width: 45vw;
     }
   
-    .panel img {
+    .image-leaves, .image-foxgates, .image-ocean {
         width: 45vw;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .panel img {
+     .panel #show {
         display: none;
     }
 }
